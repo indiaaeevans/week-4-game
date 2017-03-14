@@ -1,0 +1,37 @@
+.container {
+	max-width: 600px;
+}
+
+body {
+	background-image: url("../images/footer_lodyas.png");
+	color: white;
+}
+
+h1 {
+	color: #b281c7;
+	font-size: 60px;
+	font-family: 'Squada One', sans-serif;
+}
+
+
+p {
+	color: #65b1e4;
+	font-style: italic;
+	font-size: 12px;
+}
+
+#instructions {
+	border: solid #65b1e4;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+img {
+	width: 110px;
+	height: auto;
+	padding: 10px;
+}
+
+img:hover {
+	border: solid #65b1e4;
+}

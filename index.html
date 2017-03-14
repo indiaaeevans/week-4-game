@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Crystals Challenge</title>
+	<link rel = "stylesheet" href = "assets/css/reset.css">
+	<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+  	<!-- link to a bootstrap theme style sheet -->
+<!--   	<link rel="stylesheet" href="assets/css/sandstone.css">
+ -->	<link rel = "stylesheet" href = "assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Squada+One" rel="stylesheet">
+
+</head>
+<body>
+<div class="container text-center">
+
+	<header>
+		<h1>Crystals Challenge</h1>
+	</header>
+
+
+	<div>
+		<h1 id = "random-num">0</h1>
+	</div>
+
+	<div id="win-lose">
+		<h4>Wins: <span id = "wins"></span></h4>
+		<h4>Losses: <span id = "losses"></span></h4>
+	</div>
+
+	<div class = "row" id="images">
+		<div class = "col-md-12">
+			<img src = "assets/images/cryst1.jpg" alt = "crystal-1" id = "crystal-1">
+			<img src = "assets/images/cryst2.jpg" alt = "crystal-2" id = "crystal-2">
+			<img src = "assets/images/cryst3.jpg" alt = "crystal-3" id = "crystal-3">
+			<img src = "assets/images/cryst4.jpg" alt = "crystal-4" id = "crystal-4">
+		</div>
+	</div>
+
+	<div>
+		<h4>Score:</h4>
+		<h1><span id="score">0</span></h1>
+	</div>
+
+	<div class = "row">
+	<div class = "col-md-12">
+		<div id = "instructions">
+			<p>You will be given a random number at the start of the game.</p>
+			<p>By clicking on a crystal you will add a specific amount of points to your total score.</p>
+			<p>To win the game you must match your total score to the random number.<br>If your total score exceeds the random number, then you lose.</p>
+			<p>The value of each crystal is hidden until you click on it.</p>
+			<p>The value of each crystal will change with every new game.</p>
+		</div>
+	</div>
+</div>  <!-- close the row -->
+
+</div>  <!-- close the container -->
+
+	<!-- jQuery -->
+    <script type = "text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+    <!-- Script -->
+    <script type = "text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
